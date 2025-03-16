@@ -2,7 +2,7 @@ from selene import browser, have, by, be
 from selene.support.shared.jquery_style import s
 
 
-lenedef test_se():
+def test_selene():
     browser.open("https://github.com")
     browser.driver.fullscreen_window()
     s('.search-input').click()
